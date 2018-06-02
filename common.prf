@@ -7,6 +7,8 @@ INCDIR = $${PREFIX}/include
 LIBDIR = $${PREFIX}/lib
 BINDIR = $${PREFIX}/bin
 
+CONFIG += c++11
+
 coverage {
   message("Configuring compilation for coverage test.")
   COVERAGE_FLAGS = --coverage -O0

@@ -9,6 +9,8 @@ include(headerinstall.prf)
 
 QMAKE_PKGCONFIG_NAME = $$TARGET
 QMAKE_PKGCONFIG_DESTDIR = pkgconfig
+QMAKE_PKGCONFIG_PREFIX = $${PREFIX}
 QMAKE_PKGCONFIG_INCDIR = ${prefix}/include
+QMAKE_PKGCONFIG_LIBDIR = $${LIBDIR}
 
 CONFIG += create_pc create_prl no_install_prl
